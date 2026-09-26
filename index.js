@@ -161,25 +161,6 @@ for (let i = 0; i < sayilar.length; i++) {
   }
 }
 
-/*
-for (let j=0; j < tekraredensayilar.length; j++) {
-  let sayi = tekraredensayilar[j];
-
-    if (sayi > 1) {
-      let dahaOnceVar = false;
-      for (t=0; t < tekraredensayilar.length; t++) {
-        if (tekraredensayilar[t] === sayi + " sayisi " + tekraredensayilar[sayi] + " kere tekrar edilmistir") {
-          dahaOnceVar = true;
-        }
-
-        if (dahaOnceVar === false) {
-          tekraredensayilar.push(sayi + " sayisi " + tekraredensayilar[sayi] + " kere tekrar edilmistir");
-        }
-    }
-  }
-}
-
-  */
 
 
 tekraredensayilar2 = [];
